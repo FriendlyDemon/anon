@@ -1,8 +1,7 @@
 header {
-  color: white;
   background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.7));
 }
-header a {
+header * {
   color: white;
 }
 
@@ -35,6 +34,8 @@ header a {
 }
 
 footer {
+  user-select: none;
+  color: #ccc;
   background: linear-gradient(to top, black, rgba(0, 0, 0, 0.7));
 }
 footer a {

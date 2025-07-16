@@ -15,20 +15,19 @@ header {
   padding: 10px;
   z-index: 1000;
 }
-header h1 {
+header section {
   user-select: none;
 }
 #show {
   display: none;
-  padding: 5px;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
-  user-select: none;
 }
 header a {
   text-decoration: none;
   padding: 5px;
 }
+
 #gap {
   height: 50px;
 }
@@ -102,12 +101,4 @@ footer {
 nav {
   display: flex;
   gap: 10px;
-}
-nav a,
-footer a {
-  transition: transform 0.3s ease-in-out;
-}
-nav a:hover,
-footer a:hover {
-  transform: scale(1.3);
 }
